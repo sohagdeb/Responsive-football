@@ -39,9 +39,7 @@ body{
     margin-left: 12px;
 }
 
-.banner-img{
 
-}
 .banner-img>img{
     width: 556.01px;
     height: 438px;
@@ -113,10 +111,7 @@ main{
 
 /* main-end */
 /* footer-start */
-footer{
-   
-    
-}
+
 .footer-img>img{
     width: 483.87px;
     height: 110px;
@@ -139,6 +134,7 @@ footer{
 /* footer-end */
 /* media-query-for-mobile */
 @media only screen and (max-width:688px){
+    /* header-start */
     .banner{
         display: block;
         grid-template-columns: repeat(1,1fr);
@@ -169,18 +165,20 @@ footer{
     .button:hover{
         transform: scale(1em);
     }
+    /* header-end */
+    /* main-start */
     .player-grid{
         grid-template-columns: repeat(1,1fr);
         margin: 0;
         margin-top: 47px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 26px;
+        
     }
     .highlight{
         grid-template-columns: repeat(1,1fr);
         margin: 0;
         margin-top: 60px;
-        margin-left: 16px;
+        margin-left: 20px;
         margin-right: 16px;
     }
     .highlight-text>h1{
@@ -191,7 +189,10 @@ footer{
         margin-top: 29px;
         width: 328px;
         height: 248px;
+        margin-left: 10px;
     }
+    /* main-end */
+    /* footer-start */
     .footer-img>img{
         width: 270px;
         height: 80px;
@@ -203,4 +204,5 @@ footer{
         margin: 0;
         text-align: center;
     }
+    /* footer-end */
 }
