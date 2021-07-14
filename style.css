@@ -107,6 +107,49 @@ main{
     width: 567px;
     height: 427px;
 }
+/* form */
+.form-site{
+    width: auto;
+    
+}
+.form{
+    margin-top: 100px;
+    text-align: center;
+}
+lavel{
+    color: black;
+}
+.name-form{
+    background-color:#222222;
+    color: white; 
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.email-form{
+    background-color: #222222;
+    color: white;
+     width: 500px;
+     height: 30px;
+     padding: 10px;
+     font-size: 1rem;
+     margin-left: 4px;
+}
+.text-area-form{
+    background-color: #222222;
+    color: white;
+     width: 600px;
+     height: 80px;
+     padding: 10px;
+     font-size: 1rem;
+}
+.button-form{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
 
 
 /* main-end */
@@ -191,6 +234,54 @@ main{
         height: 248px;
         margin-left: 10px;
     }
+    .form-site{
+        width: auto;
+        
+    }
+    .form{
+        margin-top: 100px;
+        text-align: center;
+        background-color: rgb(81, 95, 95);
+        padding-top: 20px; 
+        padding-bottom: 20px;
+    }
+    lavel{
+        color: black;
+    }
+    .name-form{
+        background-color:#222222;
+        color: white; 
+        width: 200px;
+        height: 20px;
+        padding: 10px;
+        font-size: 0.7rem;
+    }
+    .email-form{
+        background-color: #222222;
+        color: white;
+         width: 200px;
+         height: 20px;
+         padding: 10px;
+         font-size: 0.7rem;
+         
+    }
+    .text-area-form{
+        background-color: #222222;
+        color: white;
+         width: 300px;
+         height: 50px;
+         padding: 10px;
+         font-size: 0.7rem;
+    }
+    .button-form{
+        background-color: black;
+        color: white;
+        width: 80px;
+        height: 25px;
+    }
+    
+    
+    
     /* main-end */
     /* footer-start */
     .footer-img>img{
